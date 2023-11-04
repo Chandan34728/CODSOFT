@@ -1,0 +1,22 @@
+.mx-auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+    justify-content: center;
+}
+
+.green{
+    color: greenyellow;
+}
+
+.black{
+    background-color: black;
+}
