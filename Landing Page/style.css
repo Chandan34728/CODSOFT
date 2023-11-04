@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* navigation-bar */
+
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-1{
+    height: 80px;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.nav-1 h2{
+    color: rgba(11, 222, 11, 0.893);
+}
+
+.nav-1 img{
+    margin-top: 5px;
+    height: 70px;
+    width: 50px;
+    margin-right: 30px;
+}
+
+.nav-2{
+    height: 80px;
+    width: 60%;
+    background-color:  rgba(11, 222, 11, 0.893);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.nav-2 a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* navigation-bar-ends */
+
+
+/* hero-section */
+
+.hero{
+    height: calc(100% - 80px);
+    width: 100%;
+    display: flex;
+}
+
+.left-section{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+}
+.upper-left{
+    background-color: white;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+}
+.upper-left img{
+    height: 50px;
+    width: 50px;
+}
+.upper-left h2{
+    font-size: 6rem;
+}
+.upper-left h3{
+    font-size: 1.9rem;
+}
+.upper-left span{
+    color: rgba(11, 222, 11, 0.893);
+}
+
+.lower-left{
+    background-color: rgb(244, 244, 39);
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-section{
+    height: 100%;
+    width: 60%;
+    background-color: yellow;
+}
+.upper-right{
+    height: 80%;
+    width: 100%;
+    background-color: rgba(11, 222, 11, 0.893);
+}
+.upper-right img{
+    width: 100%;
+    height: 100%;
+}
+.lower-right{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* hero-section-ends */
+
+/* service-section */
+
+.service-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* service-section-ends */
+
+/* popular-dishes */
+
+.nav-3{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(11, 222, 11, 0.893);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular-dishes{
+    height: calc(100% - 70px);
+    width: 100%;
+}
+
+.popular-section-1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.popular-section-2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dishes{
+    height: 80%;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.dishes:hover{
+    background-color: yellow;
+    scale: 1.11;
+}
+.dishes img{
+    height: 70%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/* popular-dishes-ends */
+
+
+/* dessert & chef-section */
+
+.section-1{
+    height: 50%;
+    width: 100%;
+}
+
+.nav-3{
+    height: 70px;
+    width: 100%;
+    background-color: rgba(11, 222, 11, 0.893);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dessert{
+    height: 100%;
+    width: 100%;
+}
+
+.dessert-section-1{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-2{
+    height: 40%;
+    width: 100%;
+}
+
+.chefs{
+    height: 100%;
+    width: 100%;
+}
+
+.chef-section{
+    margin-top: 80px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.chef{
+    margin-top: 100px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.chef img{
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.chef h3{
+    margin-top: 20px;
+}
+.chef img:hover{
+    scale: 1.1;
+}
+
+/* dessert & chef-section-ends */
